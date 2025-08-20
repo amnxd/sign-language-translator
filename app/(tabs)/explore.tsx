@@ -1,8 +1,8 @@
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
 import { useTheme } from '@/providers/ThemeContext';
+import { ThemedText } from '@/src/components/ThemedText';
+import { ThemedView } from '@/src/components/ThemedView';
 
 export default function SettingsScreen() {
   const { colorScheme, toggleColorScheme } = useTheme();

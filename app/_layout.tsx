@@ -4,6 +4,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
+
 import { AppThemeProvider, useTheme } from '@/providers/ThemeContext';
 
 function RootLayoutInner() {
