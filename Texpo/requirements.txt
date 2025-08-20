@@ -1,0 +1,20 @@
+# Core FastAPI and web framework dependencies
+fastapi>=0.104.0,<0.110.0
+uvicorn[standard]>=0.24.0,<0.30.0
+python-multipart>=0.0.6
+
+# Computer vision and ML dependencies
+opencv-python>=4.8.0,<5.0.0
+mediapipe>=0.10.8,<0.11.0
+numpy>=1.24.0,<2.0.0
+tensorflow>=2.13.0,<3.0.0
+# Alternative lightweight TF option:
+# tensorflow-lite>=2.13.0,<3.0.0
+
+# Data processing and validation
+pydantic>=2.5.0,<3.0.0
+Pillow>=10.1.0,<11.0.0
+
+# Optional utilities
+requests>=2.31.0  # For testing
+aiofiles>=23.0.0  # For file handling
