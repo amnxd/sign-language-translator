@@ -4,6 +4,8 @@ This project provides a real-time hand gesture recognition system using [MediaPi
 
 ![Hand Gesture Recognition Demo](image.png)
 
+
+
 ## Features
 
 - Real-time hand gesture recognition using webcam
